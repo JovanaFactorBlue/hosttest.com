@@ -1,0 +1,429 @@
+CRITICAL - 2020-10-01 03:29:14 --> preg_match(): Compilation failed: unmatched closing parenthesis at offset 26
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/Router/Router.php(431): preg_match()
+#2 /var/www/hosttest.com/system/Router/Router.php(177): CodeIgniter\Router\Router->checkRoutes()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(801): CodeIgniter\Router\Router->handle()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(372): CodeIgniter\CodeIgniter->tryToRouteIt()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#8 {main}
+CRITICAL - 2020-10-01 03:43:41 --> preg_match(): Compilation failed: unmatched closing parenthesis at offset 26
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/Router/Router.php(431): preg_match()
+#2 /var/www/hosttest.com/system/Router/Router.php(177): CodeIgniter\Router\Router->checkRoutes()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(801): CodeIgniter\Router\Router->handle()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(372): CodeIgniter\CodeIgniter->tryToRouteIt()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#8 {main}
+CRITICAL - 2020-10-01 03:50:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '1'
+                             AND `downloads`.`company_id` == '20'' at line 3
+#0 /var/www/hosttest.com/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/hosttest.com/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/hosttest.com/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/hosttest.com/system/Model.php(1814): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/hosttest.com/app/Models/DownloadModel.php(70): CodeIgniter\Model->__call()
+#5 /var/www/hosttest.com/app/Controllers/Booths.php(317): App\Models\DownloadModel->getAllDownloadablesForBooth()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->displayDowloadables()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#11 {main}
+CRITICAL - 2020-10-01 03:51:56 --> Invalid file: client/download.php
+#0 /var/www/hosttest.com/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /var/www/hosttest.com/app/Controllers/Booths.php(319): view()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->displayDowloadables()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#8 {main}
+CRITICAL - 2020-10-01 03:57:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(317): App\Models\DownloadModel->getAllDownloadablesForBooth()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->displayDowloadables()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-01 03:59:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getQuery()
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(317): App\Models\DownloadModel->getAllDownloadablesForBooth()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->displayDowloadables()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-01 04:07:29 --> Cannot use object of type stdClass as array
+#0 /var/www/hosttest.com/system/View/View.php(246): include()
+#1 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /var/www/hosttest.com/app/Controllers/Booths.php(319): view()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->displayDowloadables()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#8 {main}
+CRITICAL - 2020-10-01 04:08:16 --> Cannot use object of type stdClass as array
+#0 /var/www/hosttest.com/system/View/View.php(246): include()
+#1 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /var/www/hosttest.com/app/Controllers/Booths.php(319): view()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->displayDowloadables()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#8 {main}
+CRITICAL - 2020-10-01 04:09:30 --> Cannot use object of type stdClass as array
+#0 /var/www/hosttest.com/system/View/View.php(246): include()
+#1 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /var/www/hosttest.com/app/Controllers/Booths.php(319): view()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->displayDowloadables()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#8 {main}
+CRITICAL - 2020-10-01 07:32:19 --> Call to a member function getRowArray() on array
+#0 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->myPdfPage()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-10-01 07:32:38 --> Call to a member function getRow() on array
+#0 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->myPdfPage()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-10-01 07:35:13 --> Trying to access array offset on value of type null
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(327): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->myPdfPage()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-01 07:39:03 --> Trying to access array offset on value of type null
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(329): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->myPdfPage()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-01 07:41:26 --> Trying to access array offset on value of type null
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(329): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->myPdfPage()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-01 07:42:26 --> Trying to access array offset on value of type null
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(328): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->myPdfPage()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-01 07:42:34 --> Trying to access array offset on value of type null
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(328): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->myPdfPage()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-01 07:43:57 --> Trying to access array offset on value of type null
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(328): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->myPdfPage()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-01 07:44:04 --> Trying to access array offset on value of type null
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(328): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->myPdfPage()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-01 07:44:21 --> Trying to access array offset on value of type null
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(328): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->myPdfPage()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-01 08:36:53 --> syntax error, unexpected end of file
+#0 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(319): view()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->displayDownloadables()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-01 09:02:34 --> Undefined variable: response
+#0 /var/www/hosttest.com/app/Models/DownloadModel.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(326): App\Models\DownloadModel->downloadFile()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->downloadFile()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-01 09:03:27 --> Call to a member function download() on array
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(326): App\Models\DownloadModel->downloadFile()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->downloadFile()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-01 09:07:45 --> Call to a member function download() on null
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(326): App\Models\DownloadModel->downloadFile()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->downloadFile()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-01 09:08:20 --> var_dump() expects at least 1 parameter, 0 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Models/DownloadModel.php(83): var_dump()
+#2 /var/www/hosttest.com/app/Controllers/Booths.php(326): App\Models\DownloadModel->downloadFile()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->downloadFile()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#8 {main}
+CRITICAL - 2020-10-01 09:09:19 --> Call to a member function download() on null
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(326): App\Models\DownloadModel->downloadFile()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->downloadFile()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-01 09:09:37 --> Call to a member function download() on null
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(326): App\Models\DownloadModel->downloadFile()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->downloadFile()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-01 09:12:02 --> Call to a member function download() on null
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(326): App\Models\DownloadModel->downloadFile()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->downloadFile()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-01 09:12:18 --> Call to undefined method App\Models\DownloadModel::download
+#0 /var/www/hosttest.com/app/Models/DownloadModel.php(86): CodeIgniter\Model->__call()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(326): App\Models\DownloadModel->downloadFile()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->downloadFile()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-01 09:12:38 --> Undefined variable: response
+#0 /var/www/hosttest.com/app/Models/DownloadModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(326): App\Models\DownloadModel->downloadFile()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->downloadFile()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-01 09:17:16 --> Trying to get property 'read_file' of non-object
+#0 /var/www/hosttest.com/app/Models/DownloadModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(326): App\Models\DownloadModel->downloadFile()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->downloadFile()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-01 09:17:38 --> Call to a member function read_file() on null
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(326): App\Models\DownloadModel->downloadFile()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->downloadFile()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-01 09:18:14 --> Call to a member function read_file() on null
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(326): App\Models\DownloadModel->downloadFile()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->downloadFile()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-01 09:20:50 --> Call to a member function helper() on null
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(326): App\Models\DownloadModel->downloadFile()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->downloadFile()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-01 09:38:08 --> Undefined variable: filePath
+#0 /var/www/hosttest.com/app/Models/DownloadModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(326): App\Models\DownloadModel->downloadFile()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->downloadFile()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-01 09:42:01 --> Undefined variable: filePath
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(325): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->downloadFile()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-01 09:43:47 --> filesize(): stat failed for /uploads/companies/Company Test-20/booths/1/files/bsHnrqv7.png
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(329): filesize()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->downloadFile()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-01 09:44:28 --> filesize(): stat failed for /public//uploads/companies/Company Test-20/booths/1/files/bsHnrqv7.png
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(329): filesize()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->downloadFile()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-01 09:45:15 --> syntax error, unexpected ';', expecting ')'
+#0 /var/www/hosttest.com/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(801): CodeIgniter\Router\Router->handle()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(372): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-01 09:48:19 --> readfile(/uploads/companies/Company Test-20/booths/1/files/bsHnrqv7.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(338): readfile()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->downloadFile()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-01 09:48:19 --> readfile(/uploads/companies/Company Test-20/booths/1/files/bsHnrqv7.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(338): readfile()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->downloadFile()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-01 09:48:24 --> readfile(/uploads/companies/Company Test-20/booths/1/files/bsHnrqv7.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(338): readfile()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->downloadFile()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-01 09:48:31 --> readfile(/uploads/companies/Company Test-20/booths/1/files/bsHnrqv7.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(338): readfile()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->downloadFile()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-01 09:48:31 --> readfile(/uploads/companies/Company Test-20/booths/1/files/bsHnrqv7.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(338): readfile()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->downloadFile()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-01 09:48:34 --> readfile(/uploads/companies/Company Test-20/booths/1/files/bsHnrqv7.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(338): readfile()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->downloadFile()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-01 09:54:06 --> readfile(/uploads/companies/Company Test-20/booths/1/files/bsHnrqv7.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(330): readfile()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->downloadFile()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-01 09:54:17 --> readfile(/uploads/companies/Company Test-20/booths/1/files/bsHnrqv7.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(330): readfile()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->downloadFile()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-01 09:54:17 --> readfile(/uploads/companies/Company Test-20/booths/1/files/bsHnrqv7.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(330): readfile()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->downloadFile()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-01 09:54:22 --> readfile(/uploads/companies/Company Test-20/booths/1/files/bsHnrqv7.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(330): readfile()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->downloadFile()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-01 09:56:01 --> readfile(/uploads/companies/Company Test-20/booths/1/files/bsHnrqv7.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(330): readfile()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->downloadFile()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}

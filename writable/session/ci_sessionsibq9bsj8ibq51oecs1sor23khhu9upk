@@ -1,0 +1,9 @@
+__ci_last_regenerate|i:1601361971;_ci_previous_url|s:22:"http://localhost:8080/";identity|s:21:"jovana@factorblue.com";email|s:21:"jovana@factorblue.com";user_id|s:1:"2";old_last_login|s:10:"1601276287";last_check|i:1601361290;message|s:332:"<!-- DEBUG-VIEW START 1 ROOTPATH/vendor/composer/../benedmunds/codeigniter-ion-auth/Views/Messages/list.php -->
+	<div class="alert alert-info" role="alert">
+		<ul>
+					<li>Logged In Successfully</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 ROOTPATH/vendor/composer/../benedmunds/codeigniter-ion-auth/Views/Messages/list.php -->
+";__ci_vars|a:1:{s:7:"message";s:3:"old";}

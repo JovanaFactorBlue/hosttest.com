@@ -1,0 +1,42 @@
+CRITICAL - 2020-09-30 03:00:52 --> Trying to access array offset on value of type bool
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(216): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->uploadDownloadables()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-09-30 03:22:32 --> Cannot use object of type stdClass as array
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(287): App\Models\DownloadModel->uploadToDb()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->uploadDownloadables()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-09-30 03:53:53 --> finfo_file(): Empty filename or path
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/Files/File.php(153): finfo_file()
+#2 /var/www/hosttest.com/app/Controllers/Booths.php(270): CodeIgniter\Files\File->getMimeType()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->uploadDownloadables()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#8 {main}
+CRITICAL - 2020-09-30 03:58:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::affectedRows()
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(294): App\Models\DownloadModel->uploadToDb()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->uploadDownloadables()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-09-30 03:59:53 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::affected_rows()
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(294): App\Models\DownloadModel->uploadToDb()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->uploadDownloadables()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}

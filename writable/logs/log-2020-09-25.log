@@ -1,0 +1,431 @@
+CRITICAL - 2020-09-25 02:26:34 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 /var/www/hosttest.com/app/Controllers/Owner.php(36): App\Models\UserModel->getUserData()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-09-25 02:31:56 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 /var/www/hosttest.com/app/Controllers/Owner.php(36): App\Models\UserModel->getUserData()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-09-25 02:32:34 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 /var/www/hosttest.com/app/Controllers/Owner.php(36): App\Models\UserModel->getUserData()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-09-25 02:53:19 --> Undefined index: group_id
+#0 /var/www/hosttest.com/app/Models/UserModel.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Owner.php(36): App\Models\UserModel->getUserData()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-25 02:53:21 --> Undefined index: group_id
+#0 /var/www/hosttest.com/app/Models/UserModel.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Owner.php(36): App\Models\UserModel->getUserData()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-25 02:54:16 --> Object of class stdClass could not be converted to string
+#0 /var/www/hosttest.com/app/Controllers/Owner.php(36): App\Models\UserModel->getUserData()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-09-25 02:58:22 --> Array to string conversion
+#0 /var/www/hosttest.com/app/Models/UserModel.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Owner.php(36): App\Models\UserModel->getUserData()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-25 03:17:13 --> Undefined index: id
+#0 /var/www/hosttest.com/app/Models/UserModel.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Owner.php(36): App\Models\UserModel->getUserData()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-25 03:17:33 --> Undefined index: id
+#0 /var/www/hosttest.com/app/Models/UserModel.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Owner.php(36): App\Models\UserModel->getUserData()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-25 03:17:48 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /var/www/hosttest.com/app/Models/UserModel.php on line 53
+#0 /var/www/hosttest.com/app/Models/UserModel.php(53): CodeIgniter\Database\BaseResult->getResult()
+#1 /var/www/hosttest.com/app/Controllers/Owner.php(36): App\Models\UserModel->getUserData()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-25 03:20:10 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /var/www/hosttest.com/app/Models/UserModel.php on line 53
+#0 /var/www/hosttest.com/app/Models/UserModel.php(53): CodeIgniter\Database\BaseResult->getResult()
+#1 /var/www/hosttest.com/app/Controllers/Owner.php(36): App\Models\UserModel->getUserData()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-25 03:36:20 --> Cannot use object of type stdClass as array
+#0 /var/www/hosttest.com/app/Controllers/Owner.php(36): App\Models\UserModel->getUserData()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-09-25 03:46:24 --> Undefined variable: test
+#0 /var/www/hosttest.com/app/Controllers/Owner.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Owner->__construct()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-09-25 05:10:59 --> Class 'App\Controllers\FairModel' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->clientsFairs()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-25 05:11:16 --> Undefined variable: db
+#0 /var/www/hosttest.com/app/Controllers/Owner.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Owner.php(48): App\Controllers\Owner->getClientCompanyId()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->clientsFairs()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-25 05:11:41 --> Undefined variable: db
+#0 /var/www/hosttest.com/app/Controllers/Owner.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Owner.php(49): App\Controllers\Owner->getClientCompanyId()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->clientsFairs()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-25 05:11:43 --> Undefined variable: db
+#0 /var/www/hosttest.com/app/Controllers/Owner.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Owner.php(49): App\Controllers\Owner->getClientCompanyId()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->clientsFairs()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-25 05:12:02 --> Undefined variable: compId
+#0 /var/www/hosttest.com/app/Controllers/Owner.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->clientsFairs()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-09-25 05:12:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 /var/www/hosttest.com/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/hosttest.com/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/hosttest.com/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/hosttest.com/app/Controllers/Owner.php(51): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->clientsFairs()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-09-25 05:14:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 /var/www/hosttest.com/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/hosttest.com/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/hosttest.com/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/hosttest.com/app/Controllers/Owner.php(51): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->clientsFairs()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-09-25 05:15:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 /var/www/hosttest.com/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/hosttest.com/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/hosttest.com/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/hosttest.com/app/Controllers/Owner.php(51): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->clientsFairs()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-09-25 05:26:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 /var/www/hosttest.com/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/hosttest.com/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/hosttest.com/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/hosttest.com/app/Controllers/Owner.php(51): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->clientsFairs()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-09-25 05:27:11 --> Undefined variable: usersGroups
+#0 /var/www/hosttest.com/app/Controllers/Owner.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->clientsFairs()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-09-25 05:27:50 --> Undefined variable: usersGroups
+#0 /var/www/hosttest.com/app/Controllers/Owner.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->clientsFairs()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-09-25 05:28:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::getResult()
+#0 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->clientsFairs()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-25 06:53:14 --> Argument 2 passed to view() must be of the type array, int given, called in /var/www/hosttest.com/app/Controllers/Owner.php on line 36
+#0 /var/www/hosttest.com/app/Controllers/Owner.php(36): view()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->fairsView()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-09-25 06:55:46 --> Undefined variable: value
+#0 /var/www/hosttest.com/app/Controllers/Owner.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Owner.php(35): App\Controllers\Owner->clientsFairs()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->fairsView()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-25 07:13:00 --> Trying to access array offset on value of type int
+#0 /var/www/hosttest.com/app/Controllers/Owner.php(63): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Owner.php(35): App\Controllers\Owner->clientsFairs()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->fairsView()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-25 07:13:11 --> Trying to access array offset on value of type int
+#0 /var/www/hosttest.com/app/Controllers/Owner.php(63): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Owner.php(35): App\Controllers\Owner->clientsFairs()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->fairsView()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-25 07:16:57 --> Use of undefined constant var_dump - assumed 'var_dump' (this will throw an Error in a future version of PHP)
+#0 /var/www/hosttest.com/app/Views/client/fairs.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Owner.php(36): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->fairsView()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-09-25 07:17:42 --> Undefined variable: boof
+#0 /var/www/hosttest.com/app/Views/client/fairs.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Owner.php(36): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->fairsView()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-09-25 07:17:52 --> Undefined variable: data
+#0 /var/www/hosttest.com/app/Views/client/fairs.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Owner.php(36): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->fairsView()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-09-25 07:20:54 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Views/client/fairs.php(4): array_unique()
+#2 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#3 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#4 /var/www/hosttest.com/app/Controllers/Owner.php(36): view()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->fairsView()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-09-25 07:32:30 --> array_push() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Owner.php(56): array_push()
+#2 /var/www/hosttest.com/app/Controllers/Owner.php(35): App\Controllers\Owner->clientsFairs()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->fairsView()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#8 {main}
+CRITICAL - 2020-09-25 07:32:51 --> Undefined index: fair_id
+#0 /var/www/hosttest.com/app/Controllers/Owner.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Owner.php(35): App\Controllers\Owner->clientsFairs()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->fairsView()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-25 07:36:50 --> Argument 2 passed to view() must be of the type array, null given, called in /var/www/hosttest.com/app/Controllers/Owner.php on line 36
+#0 /var/www/hosttest.com/app/Controllers/Owner.php(36): view()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->fairsView()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-09-25 07:37:24 --> Argument 2 passed to view() must be of the type array, null given, called in /var/www/hosttest.com/app/Controllers/Owner.php on line 36
+#0 /var/www/hosttest.com/app/Controllers/Owner.php(36): view()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->fairsView()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-09-25 09:19:42 --> Undefined property: CodeIgniter\View\View::$result
+#0 /var/www/hosttest.com/app/Views/client/fair.php(2): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Owner.php(76): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->clientsBoothsOnSingleFair()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-09-25 09:33:47 --> Undefined variable: fairId
+#0 /var/www/hosttest.com/app/Views/client/fairs.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Owner.php(36): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->fairsView()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-09-25 09:33:49 --> Undefined variable: fairId
+#0 /var/www/hosttest.com/app/Views/client/fairs.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Owner.php(36): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->fairsView()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-09-25 09:34:09 --> Illegal string offset 'fair_id'
+#0 /var/www/hosttest.com/app/Views/client/fairs.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Owner.php(36): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->fairsView()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-09-25 09:34:32 --> Invalid argument supplied for foreach()
+#0 /var/www/hosttest.com/app/Views/client/fairs.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Owner.php(36): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->fairsView()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-09-25 09:53:27 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Owner.php(62): array_unique()
+#2 /var/www/hosttest.com/app/Controllers/Owner.php(35): App\Controllers\Owner->clientsFairs()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->fairsView()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#8 {main}
+CRITICAL - 2020-09-25 09:55:51 --> Array to string conversion
+#0 /var/www/hosttest.com/app/Controllers/Owner.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Views/client/fairs.php(22): App\Controllers\Owner->clientsBoothsOnSingleFair()
+#2 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#3 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#4 /var/www/hosttest.com/app/Controllers/Owner.php(36): view()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->fairsView()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-09-25 10:00:11 --> Class 'App\Controllers\FairsModel' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->fairsView()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-25 10:00:27 --> Array to string conversion
+#0 /var/www/hosttest.com/app/Controllers/Owner.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Views/client/fairs.php(22): App\Controllers\Owner->clientsBoothsOnSingleFair()
+#2 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#3 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#4 /var/www/hosttest.com/app/Controllers/Owner.php(42): view()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->fairsView()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}

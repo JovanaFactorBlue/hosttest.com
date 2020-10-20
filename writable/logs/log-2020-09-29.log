@@ -1,0 +1,121 @@
+CRITICAL - 2020-09-29 02:21:36 --> Unknown column 'users.user_id' in 'where clause'
+#0 /var/www/hosttest.com/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/hosttest.com/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/hosttest.com/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/hosttest.com/system/Model.php(1814): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/hosttest.com/app/Models/UserModel.php(66): CodeIgniter\Model->__call()
+#5 /var/www/hosttest.com/app/Controllers/Owner.php(18): App\Models\UserModel->getUserData()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Owner->__construct()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#8 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#11 {main}
+CRITICAL - 2020-09-29 02:22:15 --> Undefined index: group_name
+#0 /var/www/hosttest.com/app/Views/client/index.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Owner.php(30): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-09-29 05:47:38 --> Undefined variable: file
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(211): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->uploadDownloadables()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-09-29 05:48:21 --> Undefined property: CodeIgniter\HTTP\Files\UploadedFile::$/tmp/phphv7Swu
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(218): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->uploadDownloadables()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-09-29 06:40:34 --> Undefined offset: 1
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(212): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->uploadDownloadables()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-09-29 07:38:22 --> Class 'App\Controllers\DownloadModel' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->uploadDownloadables()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-29 09:48:07 --> Undefined variable: file
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(209): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->uploadDownloadables()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-09-29 09:48:59 --> Undefined variable: m
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(217): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->uploadDownloadables()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-09-29 09:50:08 --> Trying to access array offset on value of type null
+#0 /var/www/hosttest.com/app/Models/BoothModel.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(218): App\Models\BoothModel->getCompanyId()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->uploadDownloadables()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-29 09:50:54 --> Undefined variable: id
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(222): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->uploadDownloadables()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-09-29 09:51:30 --> Undefined variable: intoImages
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(240): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->uploadDownloadables()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-09-29 09:52:10 --> getimagesize(/tmp/phpMhCS3s): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(239): getimagesize()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->uploadDownloadables()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-29 10:05:54 --> Undefined variable: id
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(224): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->uploadDownloadables()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-09-29 10:06:35 --> Undefined variable: id
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(224): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->uploadDownloadables()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}

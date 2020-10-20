@@ -1,0 +1,24 @@
+CRITICAL - 2020-09-26 17:48:23 --> Array to string conversion
+#0 C:\wamp64\www\hosttest.com\app\Controllers\Owner.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\h...', 81, Array)
+#1 C:\wamp64\www\hosttest.com\app\Views\client\fairs.php(22): App\Controllers\Owner->clientsBoothsOnSingleFair(Array)
+#2 C:\wamp64\www\hosttest.com\system\View\View.php(246): include('C:\\wamp64\\www\\h...')
+#3 C:\wamp64\www\hosttest.com\system\Common.php(1119): CodeIgniter\View\View->render('client/fairs', Array, true)
+#4 C:\wamp64\www\hosttest.com\app\Controllers\Owner.php(42): view('client/fairs', Array)
+#5 C:\wamp64\www\hosttest.com\system\CodeIgniter.php(926): App\Controllers\Owner->fairsView()
+#6 C:\wamp64\www\hosttest.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+#7 C:\wamp64\www\hosttest.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\hosttest.com\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\hosttest.com\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\h...')
+#10 {main}
+CRITICAL - 2020-09-26 17:48:30 --> Array to string conversion
+#0 C:\wamp64\www\hosttest.com\app\Controllers\Owner.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\h...', 81, Array)
+#1 C:\wamp64\www\hosttest.com\app\Views\client\fairs.php(22): App\Controllers\Owner->clientsBoothsOnSingleFair(Array)
+#2 C:\wamp64\www\hosttest.com\system\View\View.php(246): include('C:\\wamp64\\www\\h...')
+#3 C:\wamp64\www\hosttest.com\system\Common.php(1119): CodeIgniter\View\View->render('client/fairs', Array, true)
+#4 C:\wamp64\www\hosttest.com\app\Controllers\Owner.php(42): view('client/fairs', Array)
+#5 C:\wamp64\www\hosttest.com\system\CodeIgniter.php(926): App\Controllers\Owner->fairsView()
+#6 C:\wamp64\www\hosttest.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+#7 C:\wamp64\www\hosttest.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\hosttest.com\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\hosttest.com\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\h...')
+#10 {main}

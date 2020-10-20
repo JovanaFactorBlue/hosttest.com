@@ -1,0 +1,123 @@
+CRITICAL - 2020-10-07 01:57:39 --> Argument 1 passed to IonAuth\Models\IonAuthModel::getUsersGroups() must be of the type int, null given, called in /var/www/hosttest.com/vendor/benedmunds/codeigniter-ion-auth/Models/IonAuthModel.php on line 1574
+#0 /var/www/hosttest.com/vendor/benedmunds/codeigniter-ion-auth/Models/IonAuthModel.php(1574): IonAuth\Models\IonAuthModel->getUsersGroups()
+#1 [internal function]: IonAuth\Models\IonAuthModel->inGroup()
+#2 /var/www/hosttest.com/app/Libraries/IonAuth.php(104): call_user_func_array()
+#3 /var/www/hosttest.com/app/Controllers/Owner.php(29): App\Libraries\IonAuth->__call()
+#4 /var/www/hosttest.com/app/Controllers/Owner.php(34): App\Controllers\Owner->groupCheck()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-10-07 03:07:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.$booth['id'].''' at line 4
+#0 /var/www/hosttest.com/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/hosttest.com/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/hosttest.com/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/hosttest.com/app/Models/BoothModel.php(121): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/hosttest.com/app/Controllers/Booths.php(72): App\Models\BoothModel->checkTypeForImages()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->uploadBoothImage()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-10-07 04:20:11 --> Undefined variable: position
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(122): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->unlinkImage()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-07 04:23:42 --> Undefined variable: position
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(122): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->unlinkImage()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-07 04:24:04 --> Unknown column 'image.image_id' in 'where clause'
+#0 /var/www/hosttest.com/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/hosttest.com/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/hosttest.com/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/hosttest.com/app/Controllers/Booths.php(127): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->unlinkImage()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-10-07 04:24:32 --> Unknown column 'images.image_id' in 'where clause'
+#0 /var/www/hosttest.com/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/hosttest.com/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/hosttest.com/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/hosttest.com/app/Controllers/Booths.php(132): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->unlinkImage()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-10-07 04:33:35 --> Trying to access array offset on value of type null
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(124): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->unlinkImage()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-07 04:33:40 --> Trying to access array offset on value of type null
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(124): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->unlinkImage()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-07 04:35:47 --> Trying to access array offset on value of type null
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(124): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->unlinkImage()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-07 07:14:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 /var/www/hosttest.com/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/hosttest.com/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/hosttest.com/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/hosttest.com/app/Controllers/Owner.php(57): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/hosttest.com/app/Controllers/Owner.php(69): App\Controllers\Owner->getClientCompanyId()
+#5 /var/www/hosttest.com/app/Controllers/Owner.php(44): App\Controllers\Owner->clientsFairsIDs()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->fairsView()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#11 {main}
+CRITICAL - 2020-10-07 07:14:38 --> Argument 1 passed to IonAuth\Models\IonAuthModel::getUsersGroups() must be of the type int, null given, called in /var/www/hosttest.com/vendor/benedmunds/codeigniter-ion-auth/Models/IonAuthModel.php on line 1574
+#0 /var/www/hosttest.com/vendor/benedmunds/codeigniter-ion-auth/Models/IonAuthModel.php(1574): IonAuth\Models\IonAuthModel->getUsersGroups()
+#1 [internal function]: IonAuth\Models\IonAuthModel->inGroup()
+#2 /var/www/hosttest.com/app/Libraries/IonAuth.php(104): call_user_func_array()
+#3 /var/www/hosttest.com/app/Controllers/Owner.php(29): App\Libraries\IonAuth->__call()
+#4 /var/www/hosttest.com/app/Controllers/Owner.php(34): App\Controllers\Owner->groupCheck()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-10-07 07:14:42 --> Argument 1 passed to IonAuth\Models\IonAuthModel::getUsersGroups() must be of the type int, null given, called in /var/www/hosttest.com/vendor/benedmunds/codeigniter-ion-auth/Models/IonAuthModel.php on line 1574
+#0 /var/www/hosttest.com/vendor/benedmunds/codeigniter-ion-auth/Models/IonAuthModel.php(1574): IonAuth\Models\IonAuthModel->getUsersGroups()
+#1 [internal function]: IonAuth\Models\IonAuthModel->inGroup()
+#2 /var/www/hosttest.com/app/Libraries/IonAuth.php(104): call_user_func_array()
+#3 /var/www/hosttest.com/app/Controllers/Owner.php(29): App\Libraries\IonAuth->__call()
+#4 /var/www/hosttest.com/app/Controllers/Owner.php(34): App\Controllers\Owner->groupCheck()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}

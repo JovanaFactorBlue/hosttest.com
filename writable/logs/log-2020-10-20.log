@@ -1,0 +1,53 @@
+CRITICAL - 2020-10-20 02:55:45 --> Undefined index: comoany
+#0 /var/www/hosttest.com/app/Views/client/contact.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Companies.php(95): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->editContact()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-10-20 03:11:37 --> Undefined variable: session
+#0 /var/www/hosttest.com/app/Controllers/Companies.php(135): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->newLink()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-20 03:13:00 --> Undefined variable: config
+#0 /var/www/hosttest.com/app/Controllers/Companies.php(112): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->newLink()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-20 03:13:34 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::with() must be of the type string, null given, called in /var/www/hosttest.com/app/Controllers/Companies.php on line 136
+#0 /var/www/hosttest.com/app/Controllers/Companies.php(136): CodeIgniter\HTTP\RedirectResponse->with()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->newLink()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-20 03:22:48 -->  route cannot be found while reverse-routing.
+#0 /var/www/hosttest.com/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/hosttest.com/app/Controllers/Companies.php(136): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->newLink()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-20 03:23:22 -->  route cannot be found while reverse-routing.
+#0 /var/www/hosttest.com/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/hosttest.com/app/Controllers/Companies.php(136): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->newLink()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}

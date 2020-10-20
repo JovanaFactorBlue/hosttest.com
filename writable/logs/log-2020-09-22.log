@@ -1,0 +1,174 @@
+CRITICAL - 2020-09-22 03:25:36 --> Call to undefined method App\Controllers\Booths::displayImage()
+#0 /var/www/hosttest.com/system/View/View.php(246): include()
+#1 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /var/www/hosttest.com/app/Controllers/Booths.php(32): view()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->gallery()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#8 {main}
+CRITICAL - 2020-09-22 03:26:28 --> Too few arguments to function App\Controllers\Booths::displayBoothImage(), 1 passed in /var/www/hosttest.com/app/Views/booths/gallery.php on line 26 and exactly 2 expected
+#0 /var/www/hosttest.com/app/Views/booths/gallery.php(26): App\Controllers\Booths->displayBoothImage()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Booths.php(32): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->gallery()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-09-22 03:31:04 --> Too few arguments to function App\Controllers\Booths::displayBoothImage(), 1 passed in /var/www/hosttest.com/app/Views/booths/gallery.php on line 26 and exactly 2 expected
+#0 /var/www/hosttest.com/app/Views/booths/gallery.php(26): App\Controllers\Booths->displayBoothImage()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Booths.php(32): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->gallery()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-09-22 03:31:08 --> Too few arguments to function App\Controllers\Booths::displayBoothImage(), 1 passed in /var/www/hosttest.com/app/Views/booths/gallery.php on line 26 and exactly 2 expected
+#0 /var/www/hosttest.com/app/Views/booths/gallery.php(26): App\Controllers\Booths->displayBoothImage()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Booths.php(32): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->gallery()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-09-22 03:31:46 --> syntax error, unexpected ','
+#0 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(32): view()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->gallery()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-22 04:36:58 --> Class 'App\Controllers\BoothModel' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->uploadBoothImage()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-22 04:44:40 --> Undefined variable: pModel
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(108): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->uploadBoothImage()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-09-22 07:07:01 --> Too few arguments to function App\Controllers\Booths::removeImage(), 1 passed in /var/www/hosttest.com/system/CodeIgniter.php on line 926 and exactly 2 expected
+#0 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->removeImage()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-22 07:12:00 --> Undefined variable: position
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(128): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->removeImage()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-09-22 09:26:22 --> You must use the "set" method to update an entry.
+#0 /var/www/hosttest.com/system/Database/BaseBuilder.php(2430): CodeIgniter\Database\BaseBuilder->validateUpdate()
+#1 /var/www/hosttest.com/system/Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#2 /var/www/hosttest.com/app/Controllers/Booths.php(232): CodeIgniter\Model->update()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->embedBoothVideo()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#8 {main}
+CRITICAL - 2020-09-22 09:30:16 --> You must use the "set" method to update an entry.
+#0 /var/www/hosttest.com/system/Database/BaseBuilder.php(2430): CodeIgniter\Database\BaseBuilder->validateUpdate()
+#1 /var/www/hosttest.com/system/Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#2 /var/www/hosttest.com/app/Controllers/Booths.php(232): CodeIgniter\Model->update()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->embedBoothVideo()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#8 {main}
+CRITICAL - 2020-09-22 09:37:41 --> You must use the "set" method to update an entry.
+#0 /var/www/hosttest.com/system/Database/BaseBuilder.php(2430): CodeIgniter\Database\BaseBuilder->validateUpdate()
+#1 /var/www/hosttest.com/system/Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#2 /var/www/hosttest.com/app/Controllers/Booths.php(232): CodeIgniter\Model->update()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->embedBoothVideo()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#8 {main}
+CRITICAL - 2020-09-22 09:44:15 --> Call to undefined function App\Controllers\inspectEmbedLink()
+#0 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->embedBoothVideo()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-22 09:45:28 --> Array to string conversion
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(242): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(225): App\Controllers\Booths->inspectEmbedLink()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->embedBoothVideo()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-22 09:48:06 --> Undefined index: host
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(225): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->embedBoothVideo()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-09-22 09:57:29 --> Call to undefined function App\Controllers\inspectEmbedLink()
+#0 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->embedBoothVideo()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-22 10:06:13 --> Undefined index: host
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(249): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(225): App\Controllers\Booths->inspectEmbedLink()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->embedBoothVideo()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-22 10:08:38 --> Undefined index: host
+#0 /var/www/hosttest.com/app/Controllers/Booths.php(249): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(225): App\Controllers\Booths->inspectEmbedLink()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->embedBoothVideo()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-22 10:13:32 --> Data too long for column 'booth_video' at row 1
+#0 /var/www/hosttest.com/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/hosttest.com/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/hosttest.com/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/hosttest.com/system/Database/BaseBuilder.php(2456): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/hosttest.com/system/Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/hosttest.com/app/Controllers/Booths.php(236): CodeIgniter\Model->update()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->embedBoothVideo()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#11 {main}

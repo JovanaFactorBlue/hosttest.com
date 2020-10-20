@@ -1,0 +1,228 @@
+CRITICAL - 2020-10-16 03:44:18 --> Undefined variable: his
+#0 /var/www/hosttest.com/app/Controllers/Companies.php(114): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->updateContact()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-16 03:44:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(`name`, `email`, `telephone`, `address`, `company_id`)
+							VALUES ('Jovana',' at line 2
+#0 /var/www/hosttest.com/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/hosttest.com/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/hosttest.com/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/hosttest.com/app/Models/CompanyModel.php(105): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/hosttest.com/app/Controllers/Companies.php(114): App\Models\CompanyModel->updateContact()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->updateContact()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-10-16 03:46:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(`name`, `email`, `telephone`, `address`, `company_id`)
+							SET ('Jovana', 'v' at line 2
+#0 /var/www/hosttest.com/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/hosttest.com/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/hosttest.com/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/hosttest.com/app/Models/CompanyModel.php(105): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/hosttest.com/app/Controllers/Companies.php(114): App\Models\CompanyModel->updateContact()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->updateContact()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-10-16 03:57:07 --> Cannot use object of type stdClass as array
+#0 /var/www/hosttest.com/system/View/View.php(246): include()
+#1 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /var/www/hosttest.com/app/Controllers/Companies.php(34): view()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->companyData()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#8 {main}
+CRITICAL - 2020-10-16 07:46:53 --> Undefined index: contact
+#0 /var/www/hosttest.com/app/Views/client/contact.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Companies.php(78): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->editLinks()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-10-16 08:02:54 --> Undefined variable: value
+#0 /var/www/hosttest.com/app/Views/client/links.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Companies.php(78): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->editLinks()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-10-16 08:05:36 --> Undefined variable: value
+#0 /var/www/hosttest.com/app/Views/client/links.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Companies.php(78): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->editLinks()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-10-16 08:42:35 --> Undefined index: compId
+#0 /var/www/hosttest.com/app/Models/CompanyModel.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Companies.php(103): App\Models\CompanyModel->addLink()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->newLink()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-16 09:05:56 --> Undefined variable: insertData
+#0 /var/www/hosttest.com/app/Controllers/Companies.php(120): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->updateLink()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-16 09:06:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's update this....'
+							WHERE `company_id` = '20'
+							AND `id` = '1'' at line 2
+#0 /var/www/hosttest.com/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/hosttest.com/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/hosttest.com/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/hosttest.com/app/Models/CompanyModel.php(109): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/hosttest.com/app/Controllers/Companies.php(120): App\Models\CompanyModel->updateLink()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->updateLink()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-10-16 09:10:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's update this....'
+							WHERE `id` = '1'' at line 2
+#0 /var/www/hosttest.com/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/hosttest.com/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/hosttest.com/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/hosttest.com/app/Models/CompanyModel.php(108): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/hosttest.com/app/Controllers/Companies.php(120): App\Models\CompanyModel->updateLink()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->updateLink()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-10-16 09:36:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's update this....'
+							WHERE `id` = '1'' at line 2
+#0 /var/www/hosttest.com/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/hosttest.com/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/hosttest.com/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/hosttest.com/app/Models/CompanyModel.php(108): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/hosttest.com/app/Controllers/Companies.php(120): App\Models\CompanyModel->updateLink()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->updateLink()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-10-16 09:38:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's update this....'
+							 WHERE `id` = '1'' at line 2
+#0 /var/www/hosttest.com/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/hosttest.com/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/hosttest.com/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/hosttest.com/app/Models/CompanyModel.php(108): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/hosttest.com/app/Controllers/Companies.php(120): App\Models\CompanyModel->updateLink()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->updateLink()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-10-16 09:39:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's update this....'
+							 WHERE `id` = '1'' at line 2
+#0 /var/www/hosttest.com/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/hosttest.com/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/hosttest.com/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/hosttest.com/app/Models/CompanyModel.php(108): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/hosttest.com/app/Controllers/Companies.php(120): App\Models\CompanyModel->updateLink()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->updateLink()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-10-16 09:40:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's update this....'
+							 WHERE `id` = '1'' at line 2
+#0 /var/www/hosttest.com/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/hosttest.com/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/hosttest.com/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/hosttest.com/app/Models/CompanyModel.php(108): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/hosttest.com/app/Controllers/Companies.php(120): App\Models\CompanyModel->updateLink()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->updateLink()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-10-16 09:49:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's update this....'
+							 WHERE `id` = '1'' at line 2
+#0 /var/www/hosttest.com/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/hosttest.com/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/hosttest.com/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/hosttest.com/app/Models/CompanyModel.php(108): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/hosttest.com/app/Controllers/Companies.php(120): App\Models\CompanyModel->updateLink()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->updateLink()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-10-16 09:49:59 --> Trying to get property 'link' of non-object
+#0 /var/www/hosttest.com/app/Views/client/company.php(169): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Companies.php(35): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->companyData()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-10-16 09:50:04 --> Trying to get property 'link' of non-object
+#0 /var/www/hosttest.com/app/Views/client/company.php(169): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Companies.php(35): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->companyData()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-10-16 09:51:30 --> Undefined index: link
+#0 /var/www/hosttest.com/app/Views/client/company.php(169): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Companies.php(35): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->companyData()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-10-16 09:54:30 --> syntax error, unexpected ')'
+#0 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#1 /var/www/hosttest.com/app/Controllers/Companies.php(35): view()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->companyData()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}

@@ -1,0 +1,616 @@
+CRITICAL - 2020-09-14 02:43:55 --> include(assets/grocery_crud/languages/english.php): failed to open stream: No such file or directory
+#0 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(3979): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(3979): include()
+#2 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(4443): App\Libraries\GroceryCrud->_load_language()
+#3 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#4 /var/www/hosttest.com/app/Controllers/Examples.php(14): App\Libraries\GroceryCrud->render()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Examples->customers_management()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-09-14 02:45:34 --> include(assets/grocery_crud/languages/english.php): failed to open stream: No such file or directory
+#0 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(3979): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(3979): include()
+#2 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(4443): App\Libraries\GroceryCrud->_load_language()
+#3 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#4 /var/www/hosttest.com/app/Controllers/Examples.php(14): App\Libraries\GroceryCrud->render()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Examples->customers_management()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-09-14 02:55:51 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-14 04:27:39 --> syntax error, unexpected ']'
+#0 /var/www/hosttest.com/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /var/www/hosttest.com/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/hosttest.com/system/Config/Services.php(322): spl_autoload_call()
+#4 /var/www/hosttest.com/system/Config/BaseService.php(123): CodeIgniter\Config\Services::filters()
+#5 /var/www/hosttest.com/system/Config/Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-09-14 04:27:48 --> syntax error, unexpected ']'
+#0 /var/www/hosttest.com/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /var/www/hosttest.com/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/hosttest.com/system/Config/Services.php(322): spl_autoload_call()
+#4 /var/www/hosttest.com/system/Config/BaseService.php(123): CodeIgniter\Config\Services::filters()
+#5 /var/www/hosttest.com/system/Config/Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-09-14 04:27:50 --> syntax error, unexpected ']'
+#0 /var/www/hosttest.com/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /var/www/hosttest.com/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/hosttest.com/system/Config/Services.php(322): spl_autoload_call()
+#4 /var/www/hosttest.com/system/Config/BaseService.php(123): CodeIgniter\Config\Services::filters()
+#5 /var/www/hosttest.com/system/Config/Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-09-14 04:31:05 --> syntax error, unexpected ']'
+#0 /var/www/hosttest.com/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /var/www/hosttest.com/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/hosttest.com/system/Config/Services.php(322): spl_autoload_call()
+#4 /var/www/hosttest.com/system/Config/BaseService.php(123): CodeIgniter\Config\Services::filters()
+#5 /var/www/hosttest.com/system/Config/Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-09-14 04:31:08 --> syntax error, unexpected ']'
+#0 /var/www/hosttest.com/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /var/www/hosttest.com/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/hosttest.com/system/Config/Services.php(322): spl_autoload_call()
+#4 /var/www/hosttest.com/system/Config/BaseService.php(123): CodeIgniter\Config\Services::filters()
+#5 /var/www/hosttest.com/system/Config/Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-09-14 04:31:37 --> syntax error, unexpected ']'
+#0 /var/www/hosttest.com/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /var/www/hosttest.com/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/hosttest.com/system/Config/Services.php(322): spl_autoload_call()
+#4 /var/www/hosttest.com/system/Config/BaseService.php(123): CodeIgniter\Config\Services::filters()
+#5 /var/www/hosttest.com/system/Config/Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-09-14 04:31:41 --> syntax error, unexpected ']'
+#0 /var/www/hosttest.com/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /var/www/hosttest.com/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/hosttest.com/system/Config/Services.php(322): spl_autoload_call()
+#4 /var/www/hosttest.com/system/Config/BaseService.php(123): CodeIgniter\Config\Services::filters()
+#5 /var/www/hosttest.com/system/Config/Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-09-14 04:37:08 --> syntax error, unexpected ']'
+#0 /var/www/hosttest.com/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /var/www/hosttest.com/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/hosttest.com/system/Config/Services.php(322): spl_autoload_call()
+#4 /var/www/hosttest.com/system/Config/BaseService.php(123): CodeIgniter\Config\Services::filters()
+#5 /var/www/hosttest.com/system/Config/Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-09-14 04:37:12 --> syntax error, unexpected ']'
+#0 /var/www/hosttest.com/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /var/www/hosttest.com/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/hosttest.com/system/Config/Services.php(322): spl_autoload_call()
+#4 /var/www/hosttest.com/system/Config/BaseService.php(123): CodeIgniter\Config\Services::filters()
+#5 /var/www/hosttest.com/system/Config/Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-09-14 04:37:12 --> syntax error, unexpected ']'
+#0 /var/www/hosttest.com/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /var/www/hosttest.com/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/hosttest.com/system/Config/Services.php(322): spl_autoload_call()
+#4 /var/www/hosttest.com/system/Config/BaseService.php(123): CodeIgniter\Config\Services::filters()
+#5 /var/www/hosttest.com/system/Config/Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-09-14 04:37:33 --> syntax error, unexpected ']'
+#0 /var/www/hosttest.com/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /var/www/hosttest.com/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/hosttest.com/system/Config/Services.php(322): spl_autoload_call()
+#4 /var/www/hosttest.com/system/Config/BaseService.php(123): CodeIgniter\Config\Services::filters()
+#5 /var/www/hosttest.com/system/Config/Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/system/CLI/Console.php(86): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/spark(57): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2020-09-14 04:37:41 --> syntax error, unexpected ']'
+#0 /var/www/hosttest.com/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /var/www/hosttest.com/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/hosttest.com/system/Config/Services.php(322): spl_autoload_call()
+#4 /var/www/hosttest.com/system/Config/BaseService.php(123): CodeIgniter\Config\Services::filters()
+#5 /var/www/hosttest.com/system/Config/Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/system/CLI/Console.php(86): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/spark(57): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2020-09-14 04:40:01 --> syntax error, unexpected ']'
+#0 /var/www/hosttest.com/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /var/www/hosttest.com/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/hosttest.com/system/Config/Services.php(322): spl_autoload_call()
+#4 /var/www/hosttest.com/system/Config/BaseService.php(123): CodeIgniter\Config\Services::filters()
+#5 /var/www/hosttest.com/system/Config/Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/system/CLI/Console.php(86): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/spark(57): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2020-09-14 04:41:20 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-14 04:47:13 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+#0 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Login->index()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 04:47:14 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+#0 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Login->index()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 04:47:24 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+#0 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Login->index()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 04:47:27 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+#0 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Login->index()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 04:47:33 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+#0 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Login->index()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 04:52:49 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-14 04:52:50 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-14 04:55:25 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-14 04:55:27 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-14 04:56:19 --> Class 'App\Controllers\Libraries\IonAuth' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Login->__construct()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 04:56:20 --> Class 'App\Controllers\Libraries\IonAuth' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Login->__construct()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 04:56:31 --> Class 'Libraries\IonAuth' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Login->__construct()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 04:59:01 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-14 05:02:04 --> Class 'Libraries\IonAuth' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Login->__construct()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 05:02:42 --> Call to undefined function App\Controllers\var_dup()
+#0 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Login->index()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 05:02:43 --> Call to undefined function App\Controllers\var_dup()
+#0 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Login->index()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 05:04:01 --> Call to undefined function App\Controllers\var_dup()
+#0 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Login->index()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 06:07:33 --> Call to a member function login() on null
+#0 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Login->index()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 06:10:01 --> Call to a member function login() on null
+#0 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Login->index()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 06:18:47 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-14 06:18:48 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-14 06:19:31 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-14 06:19:32 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-14 06:20:17 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-14 06:20:22 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-14 06:20:33 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-14 06:21:08 --> Class 'Libraries\IonAuth' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Auth->__construct()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 06:21:10 --> Class 'Libraries\IonAuth' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Auth->__construct()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 06:22:41 --> Class 'Libraries\IonAuth' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Auth->__construct()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 06:23:58 --> Class 'Libraries\IonAuth' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Auth->__construct()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 06:24:39 --> Class 'App\Controllers\App\Libraries\IonAuth' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Auth->__construct()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 06:25:28 --> Class 'App\Controllers\App\Libraries\IonAuth' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Auth->__construct()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 06:26:11 --> Class 'App\Controllers\IonAuth' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Auth->__construct()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 07:16:37 --> Class 'App\Controllers\IonAuth' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Auth->__construct()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 07:16:57 --> Call to a member function login() on null
+#0 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Login->index()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 07:20:14 --> Call to a member function login() on null
+#0 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Login->index()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 07:22:38 --> Call to a member function login() on null
+#0 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Login->index()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 07:23:50 --> Call to a member function login() on null
+#0 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Login->index()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 07:24:41 --> Class 'App\Libraries\IonAuth' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Auth->__construct()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 07:28:39 --> Undefined variable: css_files
+#0 /var/www/hosttest.com/app/Views/example.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Examples.php(9): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Examples->index()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-09-14 07:41:20 --> Undefined property: App\Controllers\Examples::$load
+#0 /var/www/hosttest.com/app/Controllers/Examples.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Examples->index()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-09-14 07:41:21 --> Undefined property: App\Controllers\Examples::$load
+#0 /var/www/hosttest.com/app/Controllers/Examples.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Examples->index()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-09-14 07:41:23 --> Undefined property: App\Controllers\Examples::$load
+#0 /var/www/hosttest.com/app/Controllers/Examples.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Examples->index()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-09-14 07:47:02 --> Undefined variable: css_files
+#0 /var/www/hosttest.com/app/Views/example.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Examples.php(10): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Examples->index()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-09-14 07:47:05 --> Undefined variable: css_files
+#0 /var/www/hosttest.com/app/Views/example.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Examples.php(10): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Examples->index()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-09-14 07:47:10 --> Class 'App\Controllers\Controller' not found
+#0 /var/www/hosttest.com/system/Router/Router.php(583): include_once()
+#1 /var/www/hosttest.com/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(801): CodeIgniter\Router\Router->handle()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(372): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-14 07:48:49 --> Class 'App\Libraries\IonAuth' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Auth->__construct()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 08:05:42 --> You must be an administrator to view this page.
+#0 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Auth->index()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 08:18:21 --> You must be an administrator to view this page.
+#0 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Auth->index()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 08:19:55 --> Trying to get property 'selector' of non-object
+#0 /var/www/hosttest.com/vendor/benedmunds/codeigniter-ion-auth/Models/IonAuthModel.php(759): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Libraries/IonAuth.php(170): IonAuth\Models\IonAuthModel->getUserByForgottenPasswordCode()
+#2 /var/www/hosttest.com/app/Controllers/Auth.php(365): App\Libraries\IonAuth->forgottenPasswordCheck()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Auth->reset_password()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#8 {main}
+CRITICAL - 2020-09-14 08:24:03 --> You must be an administrator to view this page.
+#0 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Auth->index()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-09-14 08:34:38 --> Undefined variable: css_files
+#0 /var/www/hosttest.com/app/Views/example.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Examples.php(10): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Examples->index()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-09-14 08:35:49 --> include(assets/grocery_crud/languages/english.php): failed to open stream: No such file or directory
+#0 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(3979): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(3979): include()
+#2 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(4443): App\Libraries\GroceryCrud->_load_language()
+#3 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#4 /var/www/hosttest.com/app/Controllers/Examples.php(14): App\Libraries\GroceryCrud->render()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Examples->customers_management()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-09-14 08:49:58 --> include(assets/grocery_crud/languages/english.php): failed to open stream: No such file or directory
+#0 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(3979): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(3979): include()
+#2 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(4443): App\Libraries\GroceryCrud->_load_language()
+#3 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#4 /var/www/hosttest.com/app/Controllers/Examples.php(14): App\Libraries\GroceryCrud->render()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Examples->customers_management()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-09-14 08:58:43 --> include(assets/grocery_crud/languages/english.php): failed to open stream: No such file or directory
+#0 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(3979): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(3979): include()
+#2 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(4443): App\Libraries\GroceryCrud->_load_language()
+#3 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#4 /var/www/hosttest.com/app/Controllers/Examples.php(14): App\Libraries\GroceryCrud->render()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Examples->customers_management()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-09-14 08:58:47 --> include(assets/grocery_crud/languages/english.php): failed to open stream: No such file or directory
+#0 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(3979): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(3979): include()
+#2 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(4443): App\Libraries\GroceryCrud->_load_language()
+#3 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#4 /var/www/hosttest.com/app/Controllers/Examples.php(14): App\Libraries\GroceryCrud->render()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Examples->customers_management()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-09-14 08:59:31 --> include(assets/grocery_crud/languages/english.php): failed to open stream: No such file or directory
+#0 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(3979): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(3979): include()
+#2 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(4443): App\Libraries\GroceryCrud->_load_language()
+#3 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#4 /var/www/hosttest.com/app/Controllers/Examples.php(14): App\Libraries\GroceryCrud->render()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Examples->customers_management()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-09-14 09:10:01 --> The table name does not exist. Please check you database and try again.
+#0 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 /var/www/hosttest.com/app/Controllers/Examples.php(14): App\Libraries\GroceryCrud->render()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Examples->customers_management()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#8 {main}
+CRITICAL - 2020-09-14 09:39:28 --> Trying to get property 'selector' of non-object
+#0 /var/www/hosttest.com/vendor/benedmunds/codeigniter-ion-auth/Models/IonAuthModel.php(759): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Libraries/IonAuth.php(170): IonAuth\Models\IonAuthModel->getUserByForgottenPasswordCode()
+#2 /var/www/hosttest.com/app/Controllers/Auth.php(365): App\Libraries\IonAuth->forgottenPasswordCheck()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Auth->reset_password()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#8 {main}
+CRITICAL - 2020-09-14 09:40:02 --> Trying to get property 'selector' of non-object
+#0 /var/www/hosttest.com/vendor/benedmunds/codeigniter-ion-auth/Models/IonAuthModel.php(759): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Libraries/IonAuth.php(170): IonAuth\Models\IonAuthModel->getUserByForgottenPasswordCode()
+#2 /var/www/hosttest.com/app/Controllers/Auth.php(365): App\Libraries\IonAuth->forgottenPasswordCheck()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Auth->reset_password()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#8 {main}

@@ -1,0 +1,62 @@
+CRITICAL - 2020-10-13 09:26:26 --> Undefined index: company_employees
+#0 /var/www/hosttest.com/app/Models/CompanyModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Companies.php(69): App\Models\CompanyModel->updateBasicData()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->updateBasicData()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-13 09:28:14 --> Undefined index: company_logo
+#0 /var/www/hosttest.com/app/Models/CompanyModel.php(60): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Companies.php(71): App\Models\CompanyModel->updateBasicData()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->updateBasicData()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-13 09:38:39 --> There is no data to update.
+#0 /var/www/hosttest.com/system/Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/hosttest.com/app/Models/CompanyModel.php(66): CodeIgniter\Model->update()
+#2 /var/www/hosttest.com/app/Controllers/Companies.php(72): App\Models\CompanyModel->updateBasicData()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->updateBasicData()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#8 {main}
+CRITICAL - 2020-10-13 09:38:51 --> There is no data to update.
+#0 /var/www/hosttest.com/system/Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/hosttest.com/app/Models/CompanyModel.php(66): CodeIgniter\Model->update()
+#2 /var/www/hosttest.com/app/Controllers/Companies.php(72): App\Models\CompanyModel->updateBasicData()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->updateBasicData()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#8 {main}
+CRITICAL - 2020-10-13 09:39:25 --> There is no data to update.
+#0 /var/www/hosttest.com/system/Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/hosttest.com/app/Models/CompanyModel.php(66): CodeIgniter\Model->update()
+#2 /var/www/hosttest.com/app/Controllers/Companies.php(72): App\Models\CompanyModel->updateBasicData()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->updateBasicData()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#8 {main}
+CRITICAL - 2020-10-13 09:48:29 --> Field 'company_logo' doesn't have a default value
+#0 /var/www/hosttest.com/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/hosttest.com/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/hosttest.com/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/hosttest.com/system/Database/BaseBuilder.php(2342): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/hosttest.com/system/Model.php(1063): CodeIgniter\Database\BaseBuilder->replace()
+#5 /var/www/hosttest.com/app/Models/CompanyModel.php(68): CodeIgniter\Model->replace()
+#6 /var/www/hosttest.com/app/Controllers/Companies.php(72): App\Models\CompanyModel->updateBasicData()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->updateBasicData()
+#8 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#12 {main}

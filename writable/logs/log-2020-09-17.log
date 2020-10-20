@@ -1,0 +1,180 @@
+CRITICAL - 2020-09-17 03:24:08 --> Undefined property: IonAuth\Config\IonAuth::$superAdminGroup
+#0 /var/www/hosttest.com/app/Libraries/IonAuth.php(387): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Admin.php(18): App\Libraries\IonAuth->isSuperAdmin()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Admin->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-17 03:25:34 --> Undefined property: IonAuth\Config\IonAuth::$superAdminGroup
+#0 /var/www/hosttest.com/app/Libraries/IonAuth.php(387): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Admin.php(18): App\Libraries\IonAuth->isSuperAdmin()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Admin->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-17 03:25:56 --> Undefined property: IonAuth\Config\IonAuth::$superAdminGroup
+#0 /var/www/hosttest.com/app/Libraries/IonAuth.php(387): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Admin.php(18): App\Libraries\IonAuth->isSuperAdmin()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Admin->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-17 03:27:59 --> Undefined property: IonAuth\Config\IonAuth::$superAdminGroup
+#0 /var/www/hosttest.com/app/Libraries/IonAuth.php(387): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Admin.php(18): App\Libraries\IonAuth->isSuperAdmin()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Admin->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-17 03:28:13 --> Undefined property: IonAuth\Config\IonAuth::$superAdminGroup
+#0 /var/www/hosttest.com/app/Libraries/IonAuth.php(387): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Admin.php(18): App\Libraries\IonAuth->isSuperAdmin()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Admin->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-17 03:28:14 --> Undefined property: IonAuth\Config\IonAuth::$superAdminGroup
+#0 /var/www/hosttest.com/app/Libraries/IonAuth.php(387): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Admin.php(18): App\Libraries\IonAuth->isSuperAdmin()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Admin->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-17 03:31:11 --> Undefined property: IonAuth\Config\IonAuth::$superAdminGroup
+#0 /var/www/hosttest.com/app/Libraries/IonAuth.php(387): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Admin.php(18): App\Libraries\IonAuth->isSuperAdmin()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Admin->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-17 03:31:13 --> Undefined property: IonAuth\Config\IonAuth::$superAdminGroup
+#0 /var/www/hosttest.com/app/Libraries/IonAuth.php(387): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Admin.php(18): App\Libraries\IonAuth->isSuperAdmin()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Admin->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-17 03:34:57 --> Undefined property: IonAuth\Config\IonAuth::$superAdminGroup
+#0 /var/www/hosttest.com/app/Libraries/IonAuth.php(387): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Admin.php(18): App\Libraries\IonAuth->isSuperAdmin()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Admin->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-17 03:35:49 --> Undefined property: IonAuth\Config\IonAuth::$superAdminGroup
+#0 /var/www/hosttest.com/app/Libraries/IonAuth.php(387): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Admin.php(18): App\Libraries\IonAuth->isSuperAdmin()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Admin->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-17 03:37:20 --> Undefined property: IonAuth\Config\IonAuth::$superAdminGroup
+#0 /var/www/hosttest.com/app/Libraries/IonAuth.php(387): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Admin.php(18): App\Libraries\IonAuth->isSuperAdmin()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Admin->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-17 03:39:18 --> Undefined property: IonAuth\Config\IonAuth::$superAdminGroup
+#0 /var/www/hosttest.com/app/Libraries/IonAuth.php(387): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Admin.php(18): App\Libraries\IonAuth->isSuperAdmin()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Admin->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-17 03:49:37 --> Undefined property: IonAuth\Config\IonAuth::$superAdminGroup
+#0 /var/www/hosttest.com/app/Libraries/IonAuth.php(387): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Admin.php(18): App\Libraries\IonAuth->isSuperAdmin()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Admin->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-17 03:52:36 --> Undefined property: IonAuth\Config\IonAuth::$superAdminGroup
+#0 /var/www/hosttest.com/app/Libraries/IonAuth.php(387): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Admin.php(18): App\Libraries\IonAuth->isSuperAdmin()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Admin->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-17 04:00:25 --> Undefined property: IonAuth\Config\IonAuth::$superAdminGroup
+#0 /var/www/hosttest.com/app/Libraries/IonAuth.php(387): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Auth.php(101): App\Libraries\IonAuth->isSuperAdmin()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Auth->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-17 04:00:43 --> Undefined property: IonAuth\Config\IonAuth::$superAdminGroup
+#0 /var/www/hosttest.com/app/Libraries/IonAuth.php(387): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Admin.php(18): App\Libraries\IonAuth->isSuperAdmin()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Admin->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-17 04:07:37 --> Undefined property: IonAuth\Config\IonAuth::$superAdminGroup
+#0 /var/www/hosttest.com/app/Libraries/IonAuth.php(387): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Admin.php(15): App\Libraries\IonAuth->isSuperAdmin()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Admin->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-17 04:11:37 --> Undefined property: IonAuth\Config\IonAuth::$superAdminGroup
+#0 /var/www/hosttest.com/app/Libraries/IonAuth.php(387): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Admin.php(15): App\Libraries\IonAuth->isSuperAdmin()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Admin->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-17 04:11:38 --> Undefined property: IonAuth\Config\IonAuth::$superAdminGroup
+#0 /var/www/hosttest.com/app/Libraries/IonAuth.php(387): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Admin.php(15): App\Libraries\IonAuth->isSuperAdmin()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Admin->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-09-17 04:21:45 --> Undefined property: IonAuth\Config\IonAuth::$superAdminGroup
+#0 /var/www/hosttest.com/app/Libraries/IonAuth.php(387): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Admin.php(15): App\Libraries\IonAuth->isSuperAdmin()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Admin->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}

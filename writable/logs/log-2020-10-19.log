@@ -1,0 +1,513 @@
+CRITICAL - 2020-10-19 02:03:31 --> Argument 1 passed to IonAuth\Models\IonAuthModel::getUsersGroups() must be of the type int, null given, called in /var/www/hosttest.com/vendor/benedmunds/codeigniter-ion-auth/Models/IonAuthModel.php on line 1574
+#0 /var/www/hosttest.com/vendor/benedmunds/codeigniter-ion-auth/Models/IonAuthModel.php(1574): IonAuth\Models\IonAuthModel->getUsersGroups()
+#1 [internal function]: IonAuth\Models\IonAuthModel->inGroup()
+#2 /var/www/hosttest.com/app/Libraries/IonAuth.php(104): call_user_func_array()
+#3 /var/www/hosttest.com/app/Controllers/Owner.php(29): App\Libraries\IonAuth->__call()
+#4 /var/www/hosttest.com/app/Controllers/Owner.php(44): App\Controllers\Owner->groupCheck()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-10-19 02:30:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's update this....')' at line 3
+#0 /var/www/hosttest.com/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/hosttest.com/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/hosttest.com/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/hosttest.com/app/Models/CompanyModel.php(92): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/hosttest.com/app/Controllers/Companies.php(103): App\Models\CompanyModel->addLink()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->newLink()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-10-19 02:30:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's update this....')' at line 3
+#0 /var/www/hosttest.com/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/hosttest.com/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/hosttest.com/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/hosttest.com/app/Models/CompanyModel.php(92): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/hosttest.com/app/Controllers/Companies.php(103): App\Models\CompanyModel->addLink()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->newLink()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-10-19 02:44:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's update this....')' at line 3
+#0 /var/www/hosttest.com/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/hosttest.com/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/hosttest.com/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/hosttest.com/app/Models/CompanyModel.php(92): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/hosttest.com/app/Controllers/Companies.php(103): App\Models\CompanyModel->addLink()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->newLink()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-10-19 02:47:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's update this....')' at line 3
+#0 /var/www/hosttest.com/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/hosttest.com/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/hosttest.com/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/hosttest.com/app/Models/CompanyModel.php(92): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/hosttest.com/app/Controllers/Companies.php(103): App\Models\CompanyModel->addLink()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->newLink()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-10-19 02:48:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's update this....')' at line 3
+#0 /var/www/hosttest.com/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/hosttest.com/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/hosttest.com/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/hosttest.com/app/Models/CompanyModel.php(92): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/hosttest.com/app/Controllers/Companies.php(103): App\Models\CompanyModel->addLink()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->newLink()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-10-19 03:02:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''s update this....)' at line 3
+#0 /var/www/hosttest.com/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/hosttest.com/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/hosttest.com/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/hosttest.com/app/Models/CompanyModel.php(92): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/hosttest.com/app/Controllers/Companies.php(103): App\Models\CompanyModel->addLink()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->newLink()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-10-19 03:03:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\'s update this....)' at line 3
+#0 /var/www/hosttest.com/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/hosttest.com/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/hosttest.com/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/hosttest.com/app/Models/CompanyModel.php(92): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/hosttest.com/app/Controllers/Companies.php(103): App\Models\CompanyModel->addLink()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->newLink()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-10-19 03:25:33 --> Call to undefined function App\Models\mysql_real_escape_string()
+#0 /var/www/hosttest.com/app/Controllers/Companies.php(103): App\Models\CompanyModel->addLink()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->newLink()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-19 03:26:46 --> mysqli_real_escape_string() expects exactly 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Models/CompanyModel.php(87): mysqli_real_escape_string()
+#2 /var/www/hosttest.com/app/Controllers/Companies.php(103): App\Models\CompanyModel->addLink()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->newLink()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#8 {main}
+CRITICAL - 2020-10-19 03:28:48 --> mysqli_real_escape_string() expects parameter 1 to be mysqli, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Models/CompanyModel.php(89): mysqli_real_escape_string()
+#2 /var/www/hosttest.com/app/Controllers/Companies.php(103): App\Models\CompanyModel->addLink()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->newLink()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#8 {main}
+CRITICAL - 2020-10-19 03:30:24 --> mysqli_real_escape_string() expects parameter 1 to be mysqli, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Models/CompanyModel.php(90): mysqli_real_escape_string()
+#2 /var/www/hosttest.com/app/Controllers/Companies.php(103): App\Models\CompanyModel->addLink()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->newLink()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#8 {main}
+CRITICAL - 2020-10-19 03:33:11 --> mysqli_real_escape_string() expects parameter 1 to be mysqli, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Models/CompanyModel.php(90): mysqli_real_escape_string()
+#2 /var/www/hosttest.com/app/Controllers/Companies.php(103): App\Models\CompanyModel->addLink()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->newLink()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#8 {main}
+CRITICAL - 2020-10-19 03:34:33 --> mysqli_real_escape_string() expects parameter 1 to be mysqli, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Models/CompanyModel.php(90): mysqli_real_escape_string()
+#2 /var/www/hosttest.com/app/Controllers/Companies.php(103): App\Models\CompanyModel->addLink()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->newLink()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#8 {main}
+CRITICAL - 2020-10-19 04:23:21 --> Trying to access array offset on value of type null
+#0 /var/www/hosttest.com/app/Views/client/company.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Companies.php(35): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->companyData()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-10-19 04:25:32 --> Undefined variable: id
+#0 /var/www/hosttest.com/app/Views/client/companydata.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Companies.php(41): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->editBasic()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-10-19 04:29:46 --> Undefined variable: data
+#0 /var/www/hosttest.com/app/Views/client/profiles.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Companies.php(50): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->editProfiles()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-10-19 04:38:25 --> Undefined index: company
+#0 /var/www/hosttest.com/app/Views/client/social.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Companies.php(59): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->editSocial()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-10-19 04:41:52 --> Argument 1 passed to IonAuth\Models\IonAuthModel::getUsersGroups() must be of the type int, null given, called in /var/www/hosttest.com/vendor/benedmunds/codeigniter-ion-auth/Models/IonAuthModel.php on line 1574
+#0 /var/www/hosttest.com/vendor/benedmunds/codeigniter-ion-auth/Models/IonAuthModel.php(1574): IonAuth\Models\IonAuthModel->getUsersGroups()
+#1 [internal function]: IonAuth\Models\IonAuthModel->inGroup()
+#2 /var/www/hosttest.com/app/Libraries/IonAuth.php(104): call_user_func_array()
+#3 /var/www/hosttest.com/app/Controllers/Owner.php(29): App\Libraries\IonAuth->__call()
+#4 /var/www/hosttest.com/app/Controllers/Owner.php(44): App\Controllers\Owner->groupCheck()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-10-19 04:41:55 --> Argument 1 passed to IonAuth\Models\IonAuthModel::getUsersGroups() must be of the type int, null given, called in /var/www/hosttest.com/vendor/benedmunds/codeigniter-ion-auth/Models/IonAuthModel.php on line 1574
+#0 /var/www/hosttest.com/vendor/benedmunds/codeigniter-ion-auth/Models/IonAuthModel.php(1574): IonAuth\Models\IonAuthModel->getUsersGroups()
+#1 [internal function]: IonAuth\Models\IonAuthModel->inGroup()
+#2 /var/www/hosttest.com/app/Libraries/IonAuth.php(104): call_user_func_array()
+#3 /var/www/hosttest.com/app/Controllers/Owner.php(29): App\Libraries\IonAuth->__call()
+#4 /var/www/hosttest.com/app/Controllers/Owner.php(44): App\Controllers\Owner->groupCheck()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-10-19 04:55:51 --> Undefined method Ion_auth::logged_in() called
+#0 /var/www/hosttest.com/app/Controllers/Companies.php(13): App\Libraries\IonAuth->__call()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Companies->__construct()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-19 04:56:41 --> Class 'App\Models\IonAuth' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Companies->__construct()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-10-19 04:57:03 --> Class 'App\Controllers\IonAuth' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Companies->__construct()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-10-19 04:57:14 --> Class 'App\Models\IonAuthModel' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Companies->__construct()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-10-19 04:57:31 --> Class 'App\Models\IonAuthModel' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Companies->__construct()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-10-19 04:59:44 --> Undefined property: App\Controllers\Companies::$logged
+#0 /var/www/hosttest.com/app/Controllers/Companies.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->companyData()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-19 05:00:01 --> Class 'App\Models\IonAuthModel' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Companies->__construct()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-10-19 05:00:36 --> Class 'App\Models\IonAuthModel' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Companies->__construct()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-10-19 05:03:26 --> Class 'App\Controllers\IonAuthModel' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Companies->__construct()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-10-19 05:03:48 --> Call to undefined method App\Controllers\Auth::logged_in()
+#0 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Companies->__construct()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-10-19 05:03:59 --> Call to undefined method App\Controllers\Auth::loggedIn()
+#0 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Companies->__construct()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-10-19 06:17:30 --> Undefined property: App\Controllers\Companies::$load
+#0 /var/www/hosttest.com/app/Controllers/Companies.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Companies->__construct()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-19 06:19:33 --> Class 'App\Controllers\App\Libraries\IonAuth' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Companies->__construct()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-10-19 06:20:06 --> Class 'App\Controllers\App\Libraries\IonAuth' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Companies->__construct()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-10-19 06:20:22 --> Class 'App\Controllers\App\Libraries\IonAuth' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Companies->__construct()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-10-19 06:20:52 --> Class 'App\Models\IonAuthModel' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Companies->__construct()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-10-19 06:21:51 --> Undefined property: App\Controllers\Companies::$auth
+#0 /var/www/hosttest.com/app/Controllers/Companies.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->companyData()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-19 06:57:25 --> Trying to access array offset on value of type null
+#0 /var/www/hosttest.com/app/Views/client/index.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Owner.php(45): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-10-19 07:08:56 --> Undefined property: App\Controllers\Companies::$ionAuth
+#0 /var/www/hosttest.com/app/Controllers/Companies.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Companies->__construct()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-19 07:11:14 --> Undefined property: App\Controllers\Companies::$c
+#0 /var/www/hosttest.com/app/Controllers/Companies.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->companyData()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-19 07:14:16 --> Undefined property: App\Controllers\Companies::$c
+#0 /var/www/hosttest.com/app/Controllers/Companies.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->companyData()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-19 07:14:18 --> Undefined property: App\Controllers\Companies::$c
+#0 /var/www/hosttest.com/app/Controllers/Companies.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->companyData()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-19 07:16:12 --> Trying to access array offset on value of type null
+#0 /var/www/hosttest.com/app/Views/client/index.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Owner.php(45): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-10-19 07:16:26 --> Trying to access array offset on value of type null
+#0 /var/www/hosttest.com/app/Views/client/index.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Owner.php(45): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-10-19 07:16:57 --> Trying to access array offset on value of type null
+#0 /var/www/hosttest.com/app/Views/client/index.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Owner.php(45): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-10-19 07:20:26 --> Trying to access array offset on value of type null
+#0 /var/www/hosttest.com/app/Views/client/index.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Owner.php(45): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-10-19 07:21:14 --> Trying to access array offset on value of type null
+#0 /var/www/hosttest.com/app/Views/client/index.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Owner.php(45): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-10-19 07:21:20 --> Trying to access array offset on value of type null
+#0 /var/www/hosttest.com/app/Views/client/index.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Owner.php(45): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-10-19 07:22:07 --> Trying to access array offset on value of type null
+#0 /var/www/hosttest.com/app/Views/client/index.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Owner.php(45): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-10-19 07:23:22 --> Trying to access array offset on value of type null
+#0 /var/www/hosttest.com/app/Views/client/index.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Owner.php(45): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-10-19 07:23:29 --> Undefined property: App\Controllers\Companies::$c
+#0 /var/www/hosttest.com/app/Controllers/Companies.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->editBasic()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-19 07:24:46 --> Trying to access array offset on value of type null
+#0 /var/www/hosttest.com/app/Views/client/index.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Owner.php(45): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-10-19 07:25:08 --> Undefined index: in
+#0 /var/www/hosttest.com/app/Views/client/company.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Companies.php(56): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->companyData()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-10-19 07:28:24 --> You must be an administrator to view this page.
+#0 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Auth->index()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}

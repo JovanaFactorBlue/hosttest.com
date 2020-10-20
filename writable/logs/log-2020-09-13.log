@@ -1,0 +1,286 @@
+CRITICAL - 2020-09-13 02:31:49 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 02:57:39 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 02:58:07 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 02:58:07 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 02:58:07 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 02:58:11 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:00:52 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:00:53 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:00:53 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:01:10 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:01:10 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:03:45 --> Class 'IonAuth\Controllers\BaseController' not found
+#0 D:\Tuur\Sites\ci4\grocery-crud-demo\system\Router\Router.php(583): include_once()
+#1 D:\Tuur\Sites\ci4\grocery-crud-demo\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('auth')
+#2 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(801): CodeIgniter\Router\Router->handle('auth')
+#3 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(372): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Tuur\Sites\ci4\grocery-crud-demo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-13 03:03:45 --> Class 'IonAuth\Controllers\BaseController' not found
+#0 D:\Tuur\Sites\ci4\grocery-crud-demo\system\Router\Router.php(583): include_once()
+#1 D:\Tuur\Sites\ci4\grocery-crud-demo\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('auth')
+#2 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(801): CodeIgniter\Router\Router->handle('auth')
+#3 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(372): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Tuur\Sites\ci4\grocery-crud-demo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-13 03:03:59 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:05:22 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:07:17 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:08:14 --> Undefined property: App\Controllers\Login::$validation
+#0 D:\Tuur\Sites\ci4\grocery-crud-demo\app\Controllers\Login.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Tuur\\Sites\\c...', 10, Array)
+#1 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(926): App\Controllers\Login->index()
+#2 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Tuur\Sites\ci4\grocery-crud-demo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-13 03:08:26 --> Undefined property: App\Controllers\Login::$validation
+#0 D:\Tuur\Sites\ci4\grocery-crud-demo\app\Controllers\Login.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Tuur\\Sites\\c...', 10, Array)
+#1 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(926): App\Controllers\Login->index()
+#2 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Tuur\Sites\ci4\grocery-crud-demo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-13 03:08:27 --> Undefined property: App\Controllers\Login::$validation
+#0 D:\Tuur\Sites\ci4\grocery-crud-demo\app\Controllers\Login.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Tuur\\Sites\\c...', 10, Array)
+#1 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(926): App\Controllers\Login->index()
+#2 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Tuur\Sites\ci4\grocery-crud-demo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-13 03:08:28 --> Cannot use IonAuth\Controller as Controller because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:08:30 --> Cannot use IonAuth\Controller as Controller because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:08:33 --> Undefined property: App\Controllers\Login::$validation
+#0 D:\Tuur\Sites\ci4\grocery-crud-demo\app\Controllers\Login.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Tuur\\Sites\\c...', 10, Array)
+#1 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(926): App\Controllers\Login->index()
+#2 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Tuur\Sites\ci4\grocery-crud-demo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-13 03:09:20 --> Call to a member function setRule() on null
+#0 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(926): App\Controllers\Login->index()
+#1 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Tuur\Sites\ci4\grocery-crud-demo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-13 03:09:21 --> Call to a member function setRule() on null
+#0 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(926): App\Controllers\Login->index()
+#1 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Tuur\Sites\ci4\grocery-crud-demo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-13 03:09:35 --> Call to a member function setRule() on null
+#0 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(926): App\Controllers\Login->index()
+#1 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Tuur\Sites\ci4\grocery-crud-demo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-13 03:09:54 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:10:04 --> Call to undefined method App\Controllers\Login::renderPage()
+#0 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(926): App\Controllers\Login->index()
+#1 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Tuur\Sites\ci4\grocery-crud-demo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-13 03:10:28 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:10:36 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:10:37 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:10:38 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:10:39 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:10:58 --> Call to undefined method App\Controllers\Login::renderPage()
+#0 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(926): App\Controllers\Login->index()
+#1 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Tuur\Sites\ci4\grocery-crud-demo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-13 03:11:32 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:12:16 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:13:44 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:16:28 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:20:50 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:21:10 --> Call to a member function login() on null
+#0 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(926): App\Controllers\Login->index()
+#1 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Tuur\Sites\ci4\grocery-crud-demo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-13 03:21:56 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:22:19 --> Call to a member function messages() on null
+#0 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(926): App\Controllers\Login->index()
+#1 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Tuur\Sites\ci4\grocery-crud-demo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-13 03:22:52 --> Call to a member function login() on null
+#0 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(926): App\Controllers\Login->index()
+#1 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Tuur\Sites\ci4\grocery-crud-demo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-13 03:22:53 --> Call to a member function login() on null
+#0 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(926): App\Controllers\Login->index()
+#1 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Tuur\Sites\ci4\grocery-crud-demo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-13 03:23:06 --> Call to a member function login() on null
+#0 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(926): App\Controllers\Login->index()
+#1 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Tuur\Sites\ci4\grocery-crud-demo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-13 03:23:14 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:23:39 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:23:39 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:23:43 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:23:50 --> Call to a member function login() on null
+#0 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(926): App\Controllers\Login->index()
+#1 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Tuur\Sites\ci4\grocery-crud-demo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-13 03:24:02 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:24:27 --> Call to a member function login() on null
+#0 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(926): App\Controllers\Login->index()
+#1 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Tuur\Sites\ci4\grocery-crud-demo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-13 03:24:47 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:24:48 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:24:48 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:24:48 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:24:48 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:25:34 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:25:34 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:25:37 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:26:43 --> Class 'App\Controllers\BaseController' not found
+#0 D:\Tuur\Sites\ci4\grocery-crud-demo\system\Router\Router.php(583): include_once()
+#1 D:\Tuur\Sites\ci4\grocery-crud-demo\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('login')
+#2 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(801): CodeIgniter\Router\Router->handle('login')
+#3 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(372): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Tuur\Sites\ci4\grocery-crud-demo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-13 03:26:43 --> Class 'App\Controllers\BaseController' not found
+#0 D:\Tuur\Sites\ci4\grocery-crud-demo\system\Router\Router.php(583): include_once()
+#1 D:\Tuur\Sites\ci4\grocery-crud-demo\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('login')
+#2 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(801): CodeIgniter\Router\Router->handle('login')
+#3 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(372): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Tuur\Sites\ci4\grocery-crud-demo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-13 03:26:59 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:27:21 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:28:12 --> Class 'IonAuth\Controllers\BaseController' not found
+#0 D:\Tuur\Sites\ci4\grocery-crud-demo\system\Router\Router.php(583): include_once()
+#1 D:\Tuur\Sites\ci4\grocery-crud-demo\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('login')
+#2 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(801): CodeIgniter\Router\Router->handle('login')
+#3 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(372): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Tuur\Sites\ci4\grocery-crud-demo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-13 03:28:13 --> Class 'IonAuth\Controllers\BaseController' not found
+#0 D:\Tuur\Sites\ci4\grocery-crud-demo\system\Router\Router.php(583): include_once()
+#1 D:\Tuur\Sites\ci4\grocery-crud-demo\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('login')
+#2 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(801): CodeIgniter\Router\Router->handle('login')
+#3 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(372): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Tuur\Sites\ci4\grocery-crud-demo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-13 03:28:37 --> Cannot declare class IonAuth\Libraries\IonAuth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 03:28:44 --> Call to a member function login() on null
+#0 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(926): App\Controllers\Login->index()
+#1 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Tuur\Sites\ci4\grocery-crud-demo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

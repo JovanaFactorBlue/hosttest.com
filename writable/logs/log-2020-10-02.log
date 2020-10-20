@@ -1,0 +1,248 @@
+CRITICAL - 2020-10-02 03:05:02 --> unlink(../uploads/companies/Company Test-20/booths/1/rDx1UflZ.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(132): unlink()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->removeImage()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-02 04:55:39 --> unlink(../uploads/companies/Company Test-20/booths/1/rDx1UflZ.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(132): unlink()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->removeImage()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-02 07:03:41 --> Incorrect integer value: '' for column `ci4`.`fairs`.`organizer_id` at row 1
+#0 /var/www/hosttest.com/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/hosttest.com/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/hosttest.com/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/hosttest.com/system/Database/BaseBuilder.php(2456): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/hosttest.com/app/Models/GroceryCrudModel.php(486): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(1102): App\Models\GroceryCrudModel->db_update()
+#6 /var/www/hosttest.com/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update()
+#7 /var/www/hosttest.com/app/Controllers/CrudFairs.php(25): App\Libraries\GroceryCrud->render()
+#8 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\CrudFairs->fairs()
+#9 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#13 {main}
+CRITICAL - 2020-10-02 07:08:29 --> Too few arguments to function App\Controllers\Booths::displayBoothImage(), 2 passed in /var/www/hosttest.com/app/Views/booths/gallery.php on line 27 and exactly 3 expected
+#0 /var/www/hosttest.com/app/Views/booths/gallery.php(27): App\Controllers\Booths->displayBoothImage()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Booths.php(39): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->gallery()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-10-02 07:12:33 --> Too few arguments to function App\Controllers\Booths::displayBoothImage(), 2 passed in /var/www/hosttest.com/app/Views/booths/gallery.php on line 27 and exactly 3 expected
+#0 /var/www/hosttest.com/app/Views/booths/gallery.php(27): App\Controllers\Booths->displayBoothImage()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Controllers/Booths.php(39): view()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->gallery()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#9 {main}
+CRITICAL - 2020-10-02 07:52:56 --> Undefined property: App\Controllers\Owner::$ion_auth
+#0 /var/www/hosttest.com/app/Controllers/Owner.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Owner.php(40): App\Controllers\Owner->groupCheck()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-02 07:53:15 --> Undefined method Ion_auth::in_group() called
+#0 /var/www/hosttest.com/app/Controllers/Owner.php(32): App\Libraries\IonAuth->__call()
+#1 /var/www/hosttest.com/app/Controllers/Owner.php(40): App\Controllers\Owner->groupCheck()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-02 07:54:49 --> Undefined property: App\Controllers\Owner::$session
+#0 /var/www/hosttest.com/app/Controllers/Owner.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Owner.php(40): App\Controllers\Owner->groupCheck()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-02 07:56:25 --> Undefined property: App\Controllers\Owner::$session
+#0 /var/www/hosttest.com/app/Controllers/Owner.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Owner.php(41): App\Controllers\Owner->groupCheck()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-02 08:05:55 --> Class 'App\Models\IonAuthModel' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Owner->__construct()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-10-02 08:09:07 --> Undefined property: App\Controllers\Owner::$groupCheck
+#0 /var/www/hosttest.com/app/Controllers/Owner.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-02 08:24:32 --> Call to a member function setFlashdata() on string
+#0 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Owner->index()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-10-02 08:36:14 --> Class 'App\Controllers\UserModel' not found
+#0 /var/www/hosttest.com/system/CodeIgniter.php(898): App\Controllers\Admin->__construct()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-10-02 08:37:12 --> Undefined property: App\Controllers\Admin::$data
+#0 /var/www/hosttest.com/app/Controllers/Admin.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Admin->index()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#6 {main}
+CRITICAL - 2020-10-02 08:37:32 --> Undefined variable: users
+#0 /var/www/hosttest.com/app/Views/auth/index.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Views/admin/superadmin.php(504): view()
+#4 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#5 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#6 /var/www/hosttest.com/app/Controllers/Admin.php(32): view()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Admin->index()
+#8 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#12 {main}
+CRITICAL - 2020-10-02 08:37:37 --> Undefined variable: users
+#0 /var/www/hosttest.com/app/Views/auth/index.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Views/admin/superadmin.php(504): view()
+#4 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#5 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#6 /var/www/hosttest.com/app/Controllers/Admin.php(32): view()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Admin->index()
+#8 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#12 {main}
+CRITICAL - 2020-10-02 08:38:10 --> Undefined variable: users
+#0 /var/www/hosttest.com/app/Views/auth/index.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Views/admin/superadmin.php(504): view()
+#4 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#5 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#6 /var/www/hosttest.com/app/Controllers/Admin.php(32): view()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Admin->index()
+#8 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#12 {main}
+CRITICAL - 2020-10-02 08:38:17 --> Undefined variable: users
+#0 /var/www/hosttest.com/app/Views/auth/index.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Views/admin/superadmin.php(504): view()
+#4 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#5 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#6 /var/www/hosttest.com/app/Controllers/Admin.php(32): view()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Admin->index()
+#8 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#12 {main}
+CRITICAL - 2020-10-02 08:38:52 --> Undefined variable: users
+#0 /var/www/hosttest.com/app/Views/auth/index.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Views/admin/superadmin.php(504): view()
+#4 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#5 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#6 /var/www/hosttest.com/app/Controllers/Admin.php(32): view()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Admin->index()
+#8 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#12 {main}
+CRITICAL - 2020-10-02 08:38:54 --> Undefined variable: users
+#0 /var/www/hosttest.com/app/Views/auth/index.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#2 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/hosttest.com/app/Views/admin/superadmin.php(504): view()
+#4 /var/www/hosttest.com/system/View/View.php(246): include('/var/www/hostte...')
+#5 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#6 /var/www/hosttest.com/app/Controllers/Admin.php(32): view()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Admin->index()
+#8 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#12 {main}
+CRITICAL - 2020-10-02 09:11:48 --> unlink(../uploads/companies/Company Test-20/booths/1/rDx1UflZ.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(107): unlink()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->removeImage()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-02 10:02:11 --> unlink(../uploads/companies/Company Test-20/booths/1/rDx1UflZ.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(107): unlink()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->removeImage()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-02 10:03:21 --> unlink(../uploads/companies/Company Test-20/booths/2/TMKVY9JU.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(107): unlink()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->removeImage()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-02 10:17:10 --> unlink(.): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Booths.php(107): unlink()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Booths->removeImage()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}

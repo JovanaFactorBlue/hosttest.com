@@ -1,0 +1,66 @@
+CRITICAL - 2020-10-15 02:42:09 --> Cannot use object of type stdClass as array
+#0 /var/www/hosttest.com/system/View/View.php(246): include()
+#1 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /var/www/hosttest.com/app/Controllers/Companies.php(33): view()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->companyData()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#8 {main}
+CRITICAL - 2020-10-15 05:18:57 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getIndex()
+#0 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->updateSocial()
+#1 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#5 {main}
+CRITICAL - 2020-10-15 05:36:32 --> Undefined property: stdClass::$type
+#0 /var/www/hosttest.com/app/Models/CompanyModel.php(78): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Companies.php(72): App\Models\CompanyModel->insertSocialLink()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->updateSocial()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-15 07:25:03 --> Unknown column 'facebook' in 'where clause'
+#0 /var/www/hosttest.com/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/hosttest.com/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/hosttest.com/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/hosttest.com/app/Models/CompanyModel.php(83): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/hosttest.com/app/Controllers/Companies.php(68): App\Models\CompanyModel->insertSocialLink()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->updateSocial()
+#6 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#10 {main}
+CRITICAL - 2020-10-15 07:42:16 --> Undefined variable: compId
+#0 /var/www/hosttest.com/app/Models/CompanyModel.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Companies.php(68): App\Models\CompanyModel->insertSocialLink()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->updateSocial()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-15 07:56:53 --> Undefined variable: companyId
+#0 /var/www/hosttest.com/app/Models/CompanyModel.php(70): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/hosttest.com/app/Controllers/Companies.php(64): App\Models\CompanyModel->getContacts()
+#2 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->editContact()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#7 {main}
+CRITICAL - 2020-10-15 09:41:05 --> Cannot use object of type stdClass as array
+#0 /var/www/hosttest.com/system/View/View.php(246): include()
+#1 /var/www/hosttest.com/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /var/www/hosttest.com/app/Controllers/Companies.php(67): view()
+#3 /var/www/hosttest.com/system/CodeIgniter.php(926): App\Controllers\Companies->editContact()
+#4 /var/www/hosttest.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/hosttest.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/hosttest.com/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/hosttest.com/system/Commands/Server/rewrite.php(34): require_once('/var/www/hostte...')
+#8 {main}

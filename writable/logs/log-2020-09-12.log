@@ -1,0 +1,39 @@
+CRITICAL - 2020-09-12 04:31:37 --> syntax error, unexpected '}', expecting end of file
+#0 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(372): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\Tuur\Sites\ci4\grocery-crud-demo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2020-09-12 04:46:17 --> Undefined offset: 1
+#0 D:\Tuur\Sites\ci4\grocery-crud-demo\system\Router\Router.php(488): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Tuur\\Sites\\c...', 488, Array)
+#1 D:\Tuur\Sites\ci4\grocery-crud-demo\system\Router\Router.php(177): CodeIgniter\Router\Router->checkRoutes('examples/orders...')
+#2 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(801): CodeIgniter\Router\Router->handle('examples/orders...')
+#3 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(372): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Tuur\Sites\ci4\grocery-crud-demo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-12 05:01:29 --> Undefined variable: css_files
+#0 D:\Tuur\Sites\ci4\grocery-crud-demo\app\Controllers\Examples.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Tuur\\Sites\\c...', 11, Array)
+#1 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(926): App\Controllers\Examples->customers_management()
+#2 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#3 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Tuur\Sites\ci4\grocery-crud-demo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-12 05:01:37 --> Undefined property: App\Controllers\Examples::$css_files
+#0 D:\Tuur\Sites\ci4\grocery-crud-demo\app\Controllers\Examples.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Tuur\\Sites\\c...', 11, Array)
+#1 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(926): App\Controllers\Examples->customers_management()
+#2 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#3 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Tuur\Sites\ci4\grocery-crud-demo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-12 05:01:42 --> Cannot access protected property App\Libraries\GroceryCrud::$css_files
+#0 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(926): App\Controllers\Examples->customers_management()
+#1 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#2 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Tuur\Sites\ci4\grocery-crud-demo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-12 05:02:06 --> Cannot access protected property App\Libraries\GroceryCrud::$css_files
+#0 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(926): App\Controllers\Examples->customers_management()
+#1 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#2 D:\Tuur\Sites\ci4\grocery-crud-demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Tuur\Sites\ci4\grocery-crud-demo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
